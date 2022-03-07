@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>cozyter</title>
+
+
+  <link rel="shortcut icon" href="assets/img/Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
+</head>
+
+<body>
+
+
+<div id="mySidebar" class="sidebar">
+  <!--    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
+  <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
+  <a class="text-right" href="index2.html"><i data-feather="home"></i>
+    الرئيسية
+  </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="qrcode.html"><i data-feather="camera"></i> مسح الباركود</a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="build.html"><i data-feather="calendar"></i>
+    حجز الطاولات
+  </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="record.html"><i data-feather="clock"></i> السجل </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right" href="notification.html"><i data-feather="bell"></i> الاشعارات </a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right d-flex align-items-center py-3" href="contact.html"><i class="fas fa-headset"></i> الدعم الفني</a>
+  <div class="dropdown-divider"></div>
+  <a class="text-right   d-flex align-items-center py-3" href="personal.html"><i class="far fa-user-circle"></i> الملف الشخصي<span class="red">!</span></a>
+</div>
+<div class="third-nav">
+  <div class="container-fluid">
+
+    <div class="row align-content-center justify-content-around">
+      <div class="col-2 text-center">
+        <p onclick="openNav()"> <i data-feather="align-justify"></i></p>
+      </div>
+      <div class="col-8 text-center" onclick="closeNav()">
+        <p>الملف الشخصي</p>
+      </div>
+      <div class="col-2 text-center" onclick="closeNav()">
+        <p></p>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<div class="container home" style="height: 100vh">
+  <section onclick="closeNav()">
+  <div class="  row justify-content-center align-items-center flex-column mt-3">
+    <p class="camera"><img id="profileImage" src="assets/img/camera.png" alt="" class="mt-3 clicked" width="190" height="179"></p>
+    <input type="file" class="d-none clicker" id="image" >
+    <p class="change"><a href="">تغيير الصورة</a></p>
+  </div>
+  <div class="container">
+  <div class="row justify-content-center">
+    <div class="  row justify-content-center flex-column m-2">
+      <p>اسم العميل</p>
+      <!-- <p class="nme" style="color: #000000;"><i class="fa fa-pen" aria-hidden="true"></i></p> -->
+      <p class="nme">عبد الرحيم</p>
+
+     </div>
+     <!-- <div class="  row justify-content-start mr-4 flex-column m-2">
+       <p>رقم الجوال</p>
+       <p class="nme">05948484</p>
+    
+      </div>
+        -->
+        <div class="  row justify-content-start mr-5 flex-column m-2">
+          <p>رقم الجوال</p>
+          <p class="nme">05948484</p>
+         </div>
+  </div>
+    <div class="row justify-content-center">
+      <div class="  row justify-content-center flex-column m-2">
+        <p>الايميل</p>
+        <!-- <p class="nme" style="color: #000000;"><i class="fa fa-pen" aria-hidden="true"></i></p> -->
+        <p class="nme">mohd@adadasda</p>
+
+      </div>
+      <!-- <div class="  row justify-content-start mr-4 flex-column m-2">
+        <p>رقم الجوال</p>
+        <p class="nme">05948484</p>
+
+       </div>
+         -->
+      <div class="  row justify-content-start mr-5 flex-column m-2">
+        <p></p>
+        <p class="nme"></p>
+      </div>
+    </div>
+<!--  <div class="row justify-content-start">-->
+<!--    <div class="  row justify-content-start mr-4 flex-column ">-->
+<!--      <p>الايميل</p>-->
+<!--      <p class="nme">mohd@adadasda</p>-->
+
+<!--     </div>-->
+<!--     &lt;!&ndash; <div class="  row justify-content-start mr-5 flex-column m-4">-->
+<!--       <p>رقم الجوال</p>-->
+<!--       <p class="nme">05948484</p>-->
+<!--    -->
+<!--      </div> &ndash;&gt;-->
+
+<!--  </div>-->
+
+   <div class="  row justify-content-center ">
+     <a  data-toggle="modal" data-target="#exampleModalCenter">
+    <div class="wlet text-center">
+      <i class="fas fa-wallet"></i> <p>المحفظة</p>
+    </div>
+  </a>
+    <div class="wlet"> <i class="fas fa-globe-europe"></i><p>اللغة</p>
+  </div>
+ 
+   </div>
+    
+ <div class="row justify-content-lg-center mr-3 mt-2">
+   <a href="returnpass.html" style="color: rgba(0, 0, 0, 0.5);">تغيير كلمة المرور</a>
+ </div>
+    <div class="row justify-content-around justify-content-lg-center mt-4">
+      <button class="btn out logout red_btn">تسجيل الخروج </button>
+      <button class="btn bg2 save mr-lg-4">حفظ</button>
+
+    </div>
+
+
+ <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+ aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered" role="document">
+   <div class="modal-content">
+     <div class="modal-body">
+   <div class="row align-items-center justify-content-center">
+      <p class="extin1">  <span class="extin">!</span>
+        الخدمة قيد التطوير ستكون متاحة قريبا</p>
+   </div> 
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+
+</section>
+</div>
+<div class="footer">
+  <p>جميع الحقوق محفوظة © 2021</p>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/scripts.js" type="application/javascript"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+
+</html>

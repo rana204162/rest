@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>cozyter</title>
+
+
+  <link rel="shortcut icon" href="../assets/img/Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet"  href="../assets/css/rate.css"/>
+</head>
+
+<body>
+  <div id="mySidebar" class="sidebar">
+    <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
+    <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
+    <a class="text-right" href="basicfile.html">
+      <i data-feather="home"></i>
+  
+      الرئيسية
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="userss.html">
+      <i class="far fa-address-card"></i>
+  
+  
+      العضويات
+    </a>
+  
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="notifications.html">
+      <i data-feather="bell"></i> 
+  
+      الاشعارات </a>
+    <div class="dropdown-divider"></div>
+  
+    <a class="text-right" href="recd2.html">
+      <i data-feather="clock"></i> 
+  
+      السجل </a>
+    <div class="dropdown-divider"></div>
+  
+    <a class="text-right" data-toggle="modal" data-target="#rate" >
+      <i class="far fa-star"></i>
+  
+      قيمنا    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="contact.html"><i class="fas fa-headset"></i>
+  
+      الدعم الفني
+    </a>
+    <div class="dropdown-divider"></div>
+  <a class="text-right" href="personal.html">
+    <i class="far fa-user-circle"></i>
+      ملف المنشأة <span class="red">!</span>
+    </a>
+  
+  
+  
+  
+  </div>
+  <!-- modal -->
+  <div class="modal fade" id="rate" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+       aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body p-3">
+
+          <div class="modl row justify-content-center flex-column text-center">
+            <a href="" class="text-left" style="color: #FD7C16;"><i data-feather="check-circle"></i></a>
+            <p>تقييمك لخدمتنا</p>
+            <div class="rating">
+              <form class='stars justify-content-center' >
+                <input type="radio" name='stars' value='5' id='fives' class='star' >
+                <label for="fives"><i class='fa fa-star'></i></label>
+                <input type="radio" name='stars' value='4' id='fours' class='star' checked>
+                <label for="fours"><i class='fa fa-star'></i></label>
+                <input type="radio" name='stars' value='3' id='threes' class='star' checked>
+                <label for="threes"><i class='fa fa-star'></i></label>
+                <input type="radio" name='stars' value='2' id='twos' class='star' checked>
+                <label for="twos"><i class='fa fa-star'></i></label>
+                <input type="radio" name='stars' value='1' id='ones' class='star' checked>
+                <label for="ones"><i class='fa fa-star '></i></label>
+              </form>
+            </div>
+
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1" class="m-0 mb-1">الاقتراحات والشكاوي</label>
+              <textarea class="form-control w-100" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="secondmodl" tabindex="+1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+       aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body p-3">
+          <button type="button" class="close float-left" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="row justify-content-center flex-row p-5">
+
+            <a class="btn btn-yellow2 w-100" data-toggle="modal" data-target="secondmodl">قيمنا</a>
+            <a class="btn b-yellow2 w-100 mt-3"> تقييمات الزبائن</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="third-nav">
+    <div class="container-fluid">
+      <div class="row justify-content-around align-content-center ">
+        <div class="col-2 text-center" onclick="openNav()">
+          <p onclick="openNav()"><i data-feather="align-justify"></i></p>
+        </div>
+        <div class="col-8 text-center" onclick="closeNav()">
+          <p onclick="closeNav()">الاشعارات</p>
+        </div>
+        <div class="col-2" onclick="closeNav()">
+          <p onclick="closeNav()"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container home" style="height: 100vh" onclick="closeNav()">
+
+  <section onclick="closeNav()" class="pr-2">
+    <div class="justify-content-center">
+       <div class="row mt-3">
+    <div class="col-2 p-0 m-0 text-left">
+      <img src="../assets/img/logo.jfif" width="60px" height="60px" alt="">
+    </div>
+    <div class="col-10">
+      <div class="row justify-content-between mr-2">
+        <p class="">الادارة</p>
+        <p class="pl-5">15:20</p>
+      </div>
+      <div class=""><p>سيتم اغلاق المطعم الساعة 6:00 ......<span class="nu1">1</span></p></div>
+    </div>
+  
+  </div>
+      <hr class=" mr-lg-4 ml-lg-4"/>
+
+
+      <div class="row mt-3">
+        <div class="col-2 p-0 m-0 text-left">
+          <img src="../assets/img/logo.jfif" width="60px" height="60px" alt="">
+        </div>
+        <div class="col-10">
+          <div class="row justify-content-between mr-2">
+            <p class="">الادارة</p>
+            <p class="pl-5">15:20</p>
+          </div>
+          <div class=""><p>سيتم اغلاق المطعم الساعة 6:00 ......<span class="nu1">1</span></p></div>
+        </div>
+
+      </div>
+      <hr class=" mr-lg-4 ml-lg-4"/>
+
+      <div class="row mt-3">
+        <div class="col-2 p-0 m-0 text-left">
+          <img src="../assets/img/logo.jfif" width="60px" height="60px" alt="">
+        </div>
+        <div class="col-10">
+          <div class="row justify-content-between mr-2">
+            <p class="">الادارة</p>
+            <p class="pl-5">15:20</p>
+          </div>
+          <div class=""><p>سيتم اغلاق المطعم الساعة 6:00 ......<span class="nu1">1</span></p></div>
+        </div>
+
+      </div>
+      <hr class=" mr-lg-4 ml-lg-4"/>
+</div>
+</section>
+</div>
+  <div class="footer mobile_hidden">
+    <p>جميع الحقوق محفوظة © 2021</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../assets/js/scripts.js" type="application/javascript"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+
+      .stars {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+      }
+      
+      input{
+        display: none;
+      }
+      
+      i {
+        transition: all .3s;
+      }
+      
+      i:hover {
+        transform: scale(1.1) rotate(5deg);
+        cursor: pointer;
+      }
+      
+      .stars :checked ~ label {
+        color: #FD7C16 !important;
+      }
+      .fa-star{
+          font-size: 24px; 
+     }

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>cozyter</title>
+  <link rel="stylesheet" href="../assets/css/normlaize.css">
+  <link rel="shortcut icon" href="../assets/img/Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
+</head>
+
+<body>
+
+  <div class="third-nav mb-3" style="border-bottom:1px solid #fd7c16">
+    <div class="container-fluid">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-2"> <i data-feather="align-justify" style="visibility: hidden;"></i></div>
+		          <div class="col-8 text-center"><p class="m">قائمة الطعام</p></div>
+        <div class="col-2 text-left">              <a href="listfood.html" style="color: #fd7c16"> <i data-feather="corner-up-left" ></i></a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container home">
+  <div class="input-group justify-content-center" style="margin-bottom: 15px">
+    <div class="form-outline" style="font-family: FontAwesome;">
+      <input type="search" id="form1"  style="font-family: FontAwesome;" class="form-control" placeholder="&#xF002;  البحث  " />
+    </div>
+  </div>
+
+
+  <div class="owl-carousel" style="height: 40px; padding-right:25px ;">
+<!--    <div class="box2 act2">الاطباق الرئيسية</div>-->
+    <div class="box2 act2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاطباق الرئيسية</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاطباق الثانوية</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">المقبلات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">المشروبات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاضافات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاطباق الثانوية</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">المقبلات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">المشروبات</div>
+    <div class="box2" onclick="$('.box2').removeClass('act2');$(this).addClass('act2')">الاضافات</div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="cont-card">
+      <div class="card mb-3">
+        <img class="card-img-top newimg" src="../assets/img/pizza.jpg" alt="Card image cap">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <div>
+              <h1>بيتزا ببروني</h1>
+
+            </div>
+               <div class="row">
+       	<a href="extra_orders.html" class="btn adds bg">الاضافات</a>
+				       	<button class="btn bg none">غير متوفر</button>
+
+            </div>
+          </div>
+<!--          <div class="row order_counter">-->
+<!--            <button class="btn add addMe" onclick="var i =document.getElementById('counter').innerText; i++; document.getElementById('counter').innerText= i">+</button>-->
+<!--            <a id="counter" class="theCount">0</a>-->
+<!--            <button class="btn add main" onclick="var i =document.getElementById('counter').innerText; i&#45;&#45;; document.getElementById('counter').innerText= i">-</button>-->
+<!--          </div>-->
+        </div>
+      </div>
+      <div class="card mb-3" >
+        <img class="card-img-top newimg" src="../assets/img/pizza.jpg" alt="Card image cap">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <div>
+              <h1>بيتزا ببروني</h1>
+
+            </div>
+            <div class="row">
+       	<a href="extra_orders.html" class="btn adds bg">الاضافات</a>
+				       	<button class="btn none bg">غير متوفر</button>
+
+            </div>
+
+          </div>
+<!--          <div class="row order_counter">-->
+<!--            <button class="btn add addMe" onclick="var i =document.getElementById('counter2').innerText; i++; document.getElementById('counter').innerText= i">+</button>-->
+<!--            <a id="counter2" class="theCount">0</a>-->
+<!--            <button class="btn add main" onclick="var i =document.getElementById('counter2').innerText; i&#45;&#45;; document.getElementById('counter').innerText= i">-</button>-->
+<!--          </div>-->
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+  </div>
+  <!-- Modal -->
+<!--  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"-->
+<!--    aria-hidden="true">-->
+<!--    <div class="modal-dialog modal-dialog-centered" role="document">-->
+<!--      <div class="modal-content">-->
+
+<!--        <div class="modal-body px-2 py-3">-->
+<!--          <div class="row">-->
+<!--            <div class="col-12">-->
+<!--              <p class="fav">اختر الاضافات المفضلة لدبك</p>-->
+<!--            </div>-->
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <input type="text" class="form-control  mb-1 w-50" id="hedding" >-->
+<!--            </div>-->
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label" >لحم<i class="fas fa-pen shows"></i></label>-->
+<!--            </div>-->
+
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label" >هلابينو<i class="fas fa-pen shows"></i></label>-->
+<!--            </div>-->
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label" > زيتون<i class="fas fa-pen shows"></i></label>-->
+<!--            </div>-->
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label" >فطر<i class="fas fa-pen shows"></i></label>-->
+<!--            </div>-->
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label" ><i class="fa fa-plus added" aria-hidden="true"></i></label>-->
+<!--            </div>-->
+
+
+<!--            <div class="col-12 mt-3">-->
+
+<!--              <p class="fav">اختر الاضافات غير المفضلة لدبك</p>-->
+<!--            </div>-->
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--            <input type="text" class="form-control mb-1 w-50" id="hedding2" >-->
+<!--          </div>-->
+
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label" >هلابينو<i class="fas fa-pen shows2 "></i></label>-->
+<!--            </div>-->
+
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label" >فطر<i class="fas fa-pen shows2 "></i></label>-->
+<!--            </div>-->
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label" >زيتون<i class="fas fa-pen shows2 "></i></label>-->
+<!--            </div>-->
+
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label">لحم<i class="fas fa-pen shows2 "></i></label>-->
+<!--            </div>-->
+<!--            <div class="col-12 form-check form-check-inline">-->
+<!--              <label class="form-check-label" ><i class="fa fa-plus added" aria-hidden="true"></i></label>-->
+<!--            </div>-->
+
+<!--          -->
+<!--            <div class="col-12 mt-3 text-center m-0">-->
+<!--              <p class="m-0"><i class="far fa-check-circle se-circle" data-dismiss="modal"></i></p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+  <div class="footer mobile_hidden">
+    <p>جميع الحقوق محفوظة © 2021</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../assets/js/scripts.js" type="application/javascript"></script>
+  <script>
+    feather.replace();
+
+  </script>
+</body>
+
+</html>

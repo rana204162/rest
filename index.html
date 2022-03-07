@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>cozyter</title>
+  <link rel="shortcut icon" href="assets/img/Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
+</head>
+
+<body>
+  <div id="mySidebar" class="sidebar">
+    <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
+    <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
+    <a class="text-right" href="index.html" data-toggle="modal" data-target="#exampleModalCenter"><i data-feather="home"></i>
+      
+      الرئيسية
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="#" data-toggle="modal" data-target="#exampleModalCenter"><i data-feather="camera"></i>
+      
+      مسح الباركود
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="#" data-toggle="modal" data-target="#exampleModalCenter"><i data-feather="calendar"></i>
+      
+
+      حجز الطاولات
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="#" data-toggle="modal" data-target="#exampleModalCenter"><i data-feather="clock"></i>
+      السجل </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="#" data-toggle="modal" data-target="#exampleModalCenter"><i data-feather="bell"></i>
+      
+      
+      الاشعارات </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right  d-flex align-items-center py-3" href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-headset"></i>
+      الدعم الفني
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right  d-flex align-items-center py-3" href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="far fa-user-circle"></i>
+       الملف الشخصي
+      <span class="red">!</span></a>
+  </div>
+  <!-- modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true" style="padding-left: 10px !important;">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body pt-5 pb-5 pr-2 pl-2">
+          <p class="text-center f-h-mod" style="width: unset !important;">
+<!--            <button type="button" class="close float-left" data-dismiss="modal" aria-label="Close">-->
+<!--              <span aria-hidden="true">&times;</span>-->
+<!--            </button>-->
+            <span class="">يا هلا </span>
+            <br />
+            <span class="">في <span class="fe1">كوزيتر</span> </span> <br />
+            <span class=""> طلبك عندنا!</span>
+          </p>
+          <p class="text-center"><a class="sign"> سجل دخولك !</a></p>
+          <div class="text-center">
+            <a href="log-in.html"><button class="btn sign-in">تسجيل الدخول</button> </a>
+            <p class="sign2"><a href="createacount.html">انشاء حساب ؟</a></p>
+<!--            <p class="privcy"><a href="">سياسة وشروط الاستخدام</a></p>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav id="main">
+    <div class="row p-0 m-0">
+      <div class="col-3 p-0 text-center">
+        <button class="openbtn" onclick="openNav()">
+          <i data-feather="align-justify"></i>
+        </button>
+      </div>
+      <div class="col-6 p-1 text-center" onclick="closeNav()">
+        <img src="assets/img/Logo.png" height="60px" width="60px" />
+      </div>
+      <div class="col-3 text-center">
+        <a class="nav-link dropdown-toggle text-center pt-3" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-globe-europe"></i>
+        </a>
+        <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-center" href="#">العربية</a>
+          <a class="dropdown-item text-center" href="#">English</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="box-shadow: 1px 0px 10px lightgrey; border-radius: 8px; padding: 1%;margin-top: 3%;" onclick="closeNav()">
+    <section class="hero">
+      <h4 class="welcome text-right">أهلا ...</h4>
+      <h2 class="add_title text-right">العروض و الاعلانات</h2>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/9de69a97a125347983f585902c0c2379.jfif" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/9de69a97a125347983f585902c0c2379.jfif" alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/9de69a97a125347983f585902c0c2379.jfif" alt="Third slide" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--    <div class="dropdown-divider line"></div>-->
+    <hr class="m-3 m-lg-5"/>
+    <section class="customers">
+      <h2 class="text-right mb-2 mb-lg-5">عملاءنا</h2>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="assets/img/cf823cf5e612c64dd8833137ba3e2ef2.jfif" />
+        </div>
+        <div class="item">
+          <img src="assets/img/c06e42f5fa70a97cb9e14fd95d4c6493.jfif" />
+        </div>
+        <div class="item">
+          <img src="assets/img/2ba33dbf5ca0822bbd4227978c51e0e1.jfif" />
+        </div>
+        <div class="item">
+          <img src="assets/img/cf823cf5e612c64dd8833137ba3e2ef2.jfif" />
+        </div>
+        <div class="item">
+          <img src="assets/img/c06e42f5fa70a97cb9e14fd95d4c6493.jfif" />
+        </div>
+        <div class="item">
+          <img src="assets/img/2ba33dbf5ca0822bbd4227978c51e0e1.jfif" />
+        </div>
+        <div class="item">
+          <img src="assets/img/cf823cf5e612c64dd8833137ba3e2ef2.jfif" />
+        </div>
+        <div class="item">
+          <img src="assets/img/c06e42f5fa70a97cb9e14fd95d4c6493.jfif" />
+        </div>
+        <div class="item">
+          <img src="assets/img/2ba33dbf5ca0822bbd4227978c51e0e1.jfif" />
+        </div>
+      </div>
+      <!--<div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <img src="assets/img/cf823cf5e612c64dd8833137ba3e2ef2.jfif" class="w-100">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+            <img src="assets/img/c06e42f5fa70a97cb9e14fd95d4c6493.jfif" class="w-100">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <img src="assets/img/2ba33dbf5ca0822bbd4227978c51e0e1.jfif" class="w-100">
+            </div>
+
+
+        </div>-->
+    </section>
+  </div>
+<!--  <div class="footer">-->
+<!--    <p>جميع الحقوق محفوظة © 2021</p>-->
+<!--  </div>-->
+  <div class="footer footer_index">
+    <p>جميع الحقوق محفوظة © 2021</p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/scripts.js" type="application/javascript"></script>
+
+  <script>
+    feather.replace();
+  </script>
+
+</body>
+<!--<footer>-->
+<!--  <p class="text-center">جميع الحقوق محفوظة © 2021</p>-->
+<!--</footer>-->
+<!--<footer class="footer">-->
+<!--  <div class="container">-->
+<!--    <div class="row">-->
+<!--      <div class="col-12 text-center">-->
+<!--        جميع الحقوق محفوظة © 2021-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</footer>-->
+</html>

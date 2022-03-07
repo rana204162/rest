@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>cozyter</title>
+
+
+  <link rel="shortcut icon" href="../assets/img/Logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
+</head>
+
+<body>
+  <div id="mySidebar" class="sidebar">
+    <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
+    <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
+    <a class="text-right" href="basicfile.html">
+      <i data-feather="home"></i>
+  
+      الرئيسية
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="userss.html">
+      <i class="far fa-address-card"></i>
+  
+  
+      العضويات
+    </a>
+  
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="notifications.html">
+      <i data-feather="bell"></i> 
+  
+      الاشعارات </a>
+    <div class="dropdown-divider"></div>
+  
+    <a class="text-right" href="recd2.html">
+      <i data-feather="clock"></i> 
+  
+      السجل </a>
+    <div class="dropdown-divider"></div>
+  
+    <a class="text-right" data-toggle="modal" data-target="#rate" >
+      <i class="far fa-star"></i>
+  
+      قيمنا    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="contact.html"><i class="fas fa-headset"></i>
+  
+      الدعم الفني
+    </a>
+    <div class="dropdown-divider"></div>
+  <a class="text-right" href="personal.html">
+    <i class="far fa-user-circle"></i>
+      ملف المنشأة <span class="red">!</span>
+    </a>
+  
+  
+  
+  
+  </div>
+<!-- modal -->
+ <div class="modal fade" id="rate" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true"> 
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-body p-3">
+  
+      <div class="modl row justify-content-center flex-column text-center">
+        <a href="" class="text-left" style="color: #FD7C16;"><i data-feather="check-circle"></i></a>
+        <p>تقييمك لخدمتنا</p>
+        <div class="rating">
+          <form class='stars justify-content-center' >
+            <input type="radio" name='stars' value='5' id='fives' class='star' >
+            <label for="fives"><i class='fa fa-star'></i></label>
+            <input type="radio" name='stars' value='4' id='fours' class='star' checked>
+            <label for="fours"><i class='fa fa-star'></i></label>
+            <input type="radio" name='stars' value='3' id='threes' class='star' checked>
+            <label for="threes"><i class='fa fa-star'></i></label>
+            <input type="radio" name='stars' value='2' id='twos' class='star' checked>
+            <label for="twos"><i class='fa fa-star'></i></label>
+            <input type="radio" name='stars' value='1' id='ones' class='star' checked>
+            <label for="ones"><i class='fa fa-star '></i></label>
+          </form>
+        </div>
+      
+      
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1" class="m-0 mb-1">الاقتراحات والشكاوي</label>
+          <textarea class="form-control w-100" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="secondmodl" tabindex="+1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-body p-3">
+      <button type="button" class="close float-left" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="row justify-content-center flex-row p-5">
+
+            <a class="btn btn-yellow2 w-100" data-toggle="modal" data-target="secondmodl">قيمنا</a>
+            <a class="btn b-yellow2 w-100 mt-3"> تقييمات الزبائن</a>
+=======
+        السجل </a>
+    <div class="dropdown-divider"></div>
+
+    <a class="text-right" href="rate.html" >
+        <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.25 1.24966L9.64401 4.44269L9.77496 4.74264H10.1022H14.1203L11.0092 6.42491L10.6048 6.64353L10.7888 7.06478L12.0602 9.97713L8.48782 8.04545L8.25 7.91686L8.01218 8.04545L4.43978 9.97713L5.71125 7.06478L5.89515 6.64353L5.49083 6.42491L2.37968 4.74264H6.39776H6.72504L6.85599 4.44269L8.25 1.24966Z" stroke="black"/>
+        </svg>
+
+        قيمنا    </a>
+
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="#"><svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.2035 3.90686H15C15.3978 3.90686 15.7794 4.02449 16.0607 4.23385C16.342 4.44322 16.5 4.72719 16.5 5.02328V7.25612C16.5 7.55221 16.342 7.83618 16.0607 8.04554C15.7794 8.25491 15.3978 8.37254 15 8.37254H14.2035C14.0207 9.45172 13.3149 10.4442 12.2188 11.1636C11.1227 11.883 9.71146 12.28 8.25 12.28V11.1636C9.44347 11.1636 10.5881 10.8107 11.432 10.1826C12.2759 9.5545 12.75 8.7026 12.75 7.81433V4.46507C12.75 3.57679 12.2759 2.7249 11.432 2.09679C10.5881 1.46868 9.44347 1.11582 8.25 1.11582C7.05653 1.11582 5.91193 1.46868 5.06802 2.09679C4.22411 2.7249 3.75 3.57679 3.75 4.46507V8.37254H1.5C1.10218 8.37254 0.720644 8.25491 0.43934 8.04554C0.158035 7.83618 0 7.55221 0 7.25612V5.02328C0 4.72719 0.158035 4.44322 0.43934 4.23385C0.720644 4.02449 1.10218 3.90686 1.5 3.90686H2.2965C2.47952 2.82779 3.18531 1.8355 4.28143 1.11619C5.37755 0.396888 6.78866 0 8.25 0C9.71134 0 11.1224 0.396888 12.2186 1.11619C13.3147 1.8355 14.0205 2.82779 14.2035 3.90686ZM1.5 5.02328V7.25612H2.25V5.02328H1.5ZM14.25 5.02328V7.25612H15V5.02328H14.25ZM5.07 8.25252L5.865 7.3058C6.57981 7.63907 7.40652 7.81534 8.25 7.81433C9.09348 7.81534 9.92019 7.63907 10.635 7.3058L11.43 8.25252C10.4769 8.69694 9.37466 8.93203 8.25 8.93075C7.12534 8.93203 6.02306 8.69694 5.07 8.25252Z" fill="black"/>
+    </svg>
+
+        الدعم الفني
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="text-right" href="personal.html"><svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.25 4.46539C11.25 5.05755 10.9339 5.62545 10.3713 6.04417C9.80871 6.46289 9.04565 6.69812 8.25 6.69812C7.45435 6.69812 6.69129 6.46289 6.12868 6.04417C5.56607 5.62545 5.25 5.05755 5.25 4.46539C5.25 3.87324 5.56607 3.30533 6.12868 2.88662C6.69129 2.4679 7.45435 2.23267 8.25 2.23267C9.04565 2.23267 9.80871 2.4679 10.3713 2.88662C10.9339 3.30533 11.25 3.87324 11.25 4.46539ZM9.75 4.46539C9.75 4.76147 9.59196 5.04542 9.31066 5.25478C9.02936 5.46414 8.64782 5.58176 8.25 5.58176C7.85218 5.58176 7.47064 5.46414 7.18934 5.25478C6.90804 5.04542 6.75 4.76147 6.75 4.46539C6.75 4.16932 6.90804 3.88536 7.18934 3.67601C7.47064 3.46665 7.85218 3.34903 8.25 3.34903C8.64782 3.34903 9.02936 3.46665 9.31066 3.67601C9.59196 3.88536 9.75 4.16932 9.75 4.46539Z" fill="black"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.25 0C3.69375 0 0 2.74905 0 6.14C0 9.53095 3.69375 12.28 8.25 12.28C12.8062 12.28 16.5 9.53095 16.5 6.14C16.5 2.74905 12.8062 0 8.25 0ZM1.5 6.14C1.5 7.3066 2.03475 8.38054 2.931 9.23344C3.56042 8.61827 4.37243 8.11973 5.30357 7.77676C6.23472 7.4338 7.25981 7.25569 8.29875 7.25636C9.32425 7.25564 10.3364 7.42913 11.2582 7.76363C12.18 8.09812 12.987 8.58479 13.6178 9.18656C14.2676 8.55224 14.7051 7.81188 14.8942 7.02672C15.0832 6.24157 15.0183 5.4342 14.7049 4.67141C14.3914 3.90863 13.8384 3.21236 13.0916 2.64022C12.3448 2.06808 11.4257 1.63651 10.4103 1.38123C9.39489 1.12594 8.3124 1.05428 7.25239 1.17217C6.19239 1.29006 5.18534 1.59411 4.31458 2.05916C3.44381 2.52422 2.73436 3.13691 2.24492 3.84654C1.75549 4.55617 1.50014 5.34234 1.5 6.14ZM8.25 11.1636C6.70046 11.1654 5.1977 10.7686 3.996 10.0406C4.4797 9.52523 5.1235 9.10446 5.87264 8.81407C6.62179 8.52369 7.45409 8.37228 8.29875 8.37273C9.13287 8.37223 9.95512 8.51985 10.6972 8.80332C11.4393 9.08679 12.0798 9.49794 12.5655 10.0026C11.3545 10.7543 9.82694 11.1653 8.25 11.1636Z" fill="black"/>
+    </svg>
+        ملف المنشأة <span class="red">!</span>
+    </a>
+>>>>>>> 0ffe8eee1087d1c60cff9f0237885298477fb0bb
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- end side bar -->
+
+<!--  <div class="third-nav">-->
+<!--    <div class="container-fluid">-->
+<!--      <div class="row align-content-center justify-content-between">-->
+<!--       <p class="mr-2"  onclick="openNav()"> <i data-feather="align-justify"></i></p>-->
+<!--       <p onclick="closeNav()">السجل </p>-->
+<!--       <p></p>-->
+<!--      </div>-->
+<!--      </div>-->
+<!--  </div>-->
+
+  <div class="third-nav">
+      <div class="container-fluid">
+          <div class="row justify-content-around align-content-center ">
+              <div class="col-2 text-center" onclick="openNav()">
+              <p onclick="openNav()"><i data-feather="align-justify"></i></p>
+              </div>
+              <div class="col-8 text-center" onclick="closeNav()">
+              <p onclick="closeNav()">السجل</p>
+              </div>
+              <div class="col-2" onclick="closeNav()">
+                  <p onclick="closeNav()"></p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container home h-100" onclick="closeNav()">
+  <div class="notif justify-content-center ml-2"  onclick="closeNav()">
+    <div class="row mt-3">
+        <div class="col-8">
+            <p class="m-0 piza">عضوية المقر الواحد</p>
+            <p class="m-0 piza2">2-9-2020</p>
+            <p class="m-0 piza2">2:25</p>
+        </div>
+        <div class="col-4">
+            <p class="m-0" style="font-size: 22px;">106 ر.س</p>
+            <p class="mt-4 ftora"><a href="fatoora_recd.html" style="font-size: 16px;">الفاتورة</a></p>
+        </div>
+    </div>
+    
+<!--    <div class="d-flex mt-3 ">-->
+<!--       -->
+<!--<div class="row mr-3 flex-column">-->
+<!--<p class="m-0 piza">عضوية المقر الواحد</p>-->
+<!--<p class="m-0 piza2">2-9-2020</p>-->
+<!--<p class="m-0 piza2">2:25</p>-->
+
+<!--</div>   -->
+<!--<div class="row flex-column ftora">-->
+<!--  <p class="m-0" style="font-size: 22px;">106 ر.س</p>-->
+<!--  <p class="mt-4"><a href="../fatoora.html" style="font-size: 16px;">الفاتورة</a></p>-->
+<!--  -->
+<!--  </div>  -->
+<!-- </div>-->
+
+
+    <div class="newline"></div>
+<!--    <div class="d-flex mt-5 ">-->
+<!--       -->
+<!--<div class="row mr-3 flex-column">-->
+<!--<p class="m-0 piza">عضوية المقر الواحد</p>-->
+<!--<p class="m-0 piza2">2-9-2020</p>-->
+<!--<p class="m-0 piza2">2:25</p>-->
+
+<!--</div>   -->
+<!--<div class="row flex-column ftora">-->
+<!--  <p class="m-0" style="font-size: 22px;">106 ر.س</p>-->
+<!--  <p class="mt-4"><a href="../fatoora.html" style="font-size: 16px;">الفاتورة</a></p>-->
+<!--  -->
+<!--  </div>  -->
+<!-- </div>-->
+      <div class="row mt-3">
+          <div class="col-8">
+              <p class="m-0 piza">عضوية المقر الواحد</p>
+              <p class="m-0 piza2">2-9-2020</p>
+              <p class="m-0 piza2">2:25</p>
+          </div>
+          <div class="col-4">
+              <p class="m-0" style="font-size: 22px;">106 ر.س</p>
+              <p class="mt-4 ftora"><a href="fatoora_recd.html" style="font-size: 16px;">الفاتورة</a></p>
+          </div>
+      </div>
+
+    <div class="newline"></div>  
+<!--      <div class="d-flex mt-5">-->
+<!--       -->
+<!--<div class="row mr-3 flex-column">-->
+<!--<p class="m-0 piza">عضوية المقر الواحد</p>-->
+<!--<p class="m-0 piza2">2-9-2020</p>-->
+<!--<p class="m-0 piza2">2:25</p>-->
+
+<!--</div>   -->
+<!--<div class="row flex-column ftora">-->
+<!--  <p class="m-0" style="font-size: 22px;">106 ر.س</p>-->
+<!--  <p class="mt-4"><a href="../fatoora.html" style="font-size: 16px;">الفاتورة</a></p>-->
+<!--  -->
+<!--  </div>  -->
+<!-- </div>-->
+      <div class="row mt-3">
+          <div class="col-8">
+              <p class="m-0 piza">عضوية المقر الواحد</p>
+              <p class="m-0 piza2">2-9-2020</p>
+              <p class="m-0 piza2">2:25</p>
+          </div>
+          <div class="col-4">
+              <p class="m-0" style="font-size: 22px;">106 ر.س</p>
+              <p class="mt-4 ftora"><a href="fatoora_recd.html" style="font-size: 16px;">الفاتورة</a></p>
+          </div>
+      </div>
+
+
+    <div class="newline"></div>
+  </div>
+  </div>
+<!--  <div class="footer">-->
+<!--    <p>جميع الحقوق محفوظة © 2021</p>-->
+<!--  </div>-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="../assets/js/scripts.js" type="application/javascript"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+
+</html>
