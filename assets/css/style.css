@@ -703,6 +703,15 @@ textarea.form-control {
   border: 1px solid #fd7c16;
   border-radius: 100px;
 }
+
+.conf1 {
+  margin-top: 15px;
+  color: #fd7c16;
+  border: 1px solid #fd7c16;
+  border-radius: 100px;
+  margin-right: 15px;
+  padding: 5px 30px;
+}
 .finish {
   margin-top: 15px;
 

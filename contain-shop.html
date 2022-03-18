@@ -21,6 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <script src="https://unpkg.com/feather-icons"></script>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/rate.css">
   <meta name="viewport" content="width=device-width, height=device-height initial-scale=1, shrink-to-fit=no" />
 </head>
 
@@ -192,8 +193,9 @@
       </div>
     </div>
    <div class="row justify-content-center ">
-     <a href="" class="btn conf bg" data-toggle="modal" data-target="#asd">تاكيد الطلب الحالي</a>
-     <a href="" class="btn finish bg2"  data-toggle="modal" data-target="#asdsss">انهاء الطلب</a>
+     <a href="" class="btn conf bg" data-toggle="modal" data-target="#asd">ارسال الطلب</a>
+     <a href="" class="btn finish bg2"  data-toggle="modal" data-target="#asdsss">انهاء ودفع</a>
+     <a href="" class="btn conf1 bg2" style=""  data-toggle="modal" data-target="#rate">قيمنا</a>
 
    </div>
 
@@ -209,6 +211,63 @@
         </div>
       </div>
       
+    </div>
+  </div>
+</div>
+
+<!-- modal -->
+<div class="modal fade" id="rate" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+aria-hidden="true"> 
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content m-4">
+    <div class="modal-body p-3">
+  
+      <div class="modl row justify-content-center flex-column text-center">
+        <a href="" class="text-left" style="color: #FD7C16;"><i data-feather="check-circle"></i></a>
+        <p>تقييمك لخدمتنا</p>
+        <div class="rating">
+          <form class='stars'>
+            <input type="radio" name='stars' value='5' id='fives' class='star' >
+            <label for="fives"><i class='fa fa-star'></i></label>
+            <input type="radio" name='stars' value='4' id='fours' class='star'>
+            <label for="fours"><i class='fa fa-star'></i></label>
+            <input type="radio" name='stars' value='3' id='threes' class='star'>
+            <label for="threes"><i class='fa fa-star'></i></label>
+            <input type="radio" name='stars' value='2' id='twos' class='star'>
+            <label for="twos"><i class='fa fa-star'></i></label>
+            <input type="radio" name='stars' value='1' id='ones' class='star' checked>
+            <label for="ones"><i class='fa fa-star '></i></label>
+          </form>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1" class="m-0 mb-1">الاقتراحات والشكاوي</label>
+          <textarea class="form-control w-100" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    
+        <p>تقييمك للمطعم او المقهى</p>
+        <p>
+          <div class="rating">
+            <form class='stars'>
+              <input type="radio" name='stars' value='5' id='five' class='star' >
+              <label for="five"><i class='fa fa-star'></i></label>
+              <input type="radio" name='stars' value='4' id='four' class='star'>
+              <label for="four"><i class='fa fa-star'></i></label>
+              <input type="radio" name='stars' value='3' id='three' class='star'>
+              <label for="three"><i class='fa fa-star'></i></label>
+              <input type="radio" name='stars' value='2' id='two' class='star'>
+              <label for="two"><i class='fa fa-star'></i></label>
+              <input type="radio" name='stars' value='1' id='one' class='star' checked>
+              <label for="one"><i class='fa fa-star '></i></label>
+            </form>
+          </div>
+    
+        </p>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1" class="m-0 mb-1">الاقتراحات والشكاوي</label>
+          <textarea class="form-control w-100" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      </div>
     </div>
   </div>
 </div>
