@@ -29,7 +29,7 @@
   <div id="mySidebar" class="sidebar">
     <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>-->
     <a href="#" class="first"><i class="profile fas fa-user-circle"></i></a>
-    <a class="text-right" href="index.html">
+    <a class="text-right" href="basicfile.html">
       <i data-feather="home"></i>
   
       الرئيسية
@@ -69,10 +69,20 @@
     <i class="far fa-user-circle"></i>
       ملف المنشأة 
     </a>
-  
-  
-  
-  
+  </div>
+
+  <div class="third-nav">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 text-center">
+            <p onclick="openNav()"> <i data-feather="align-justify"></i></p>
+        </div>
+        <div onclick="closeNav()" class="col-8 text-center">
+            <p>الدعم الفني</p>
+        </div>
+        <div class="col-2" onclick="closeNav()"><p></p></div>
+    </div>
+    </div>
   </div>
   <!-- modal -->
    <div class="modal fade" id="rate" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -132,30 +142,20 @@
 
   <!-- end side bar -->
 
-  <div class="third-nav" style="background-color: #FD7C16;">
-    <div class="container-fluid">
-      <div class="row align-content-center mr-3 mr-lg-5">
-        <div class="col-3 text-center">
-          <p onclick="openNav()"> <i data-feather="align-justify"></i></p>
-        </div>
-        <div class="col-6 text-center"></div>
-        <div class="col-3 text-center"></div>
-      </div>
-    </div>
-  </div>
-  <div class="container home">
-     <div class="row justify-content-center align-items-center mt-5 flex-column ex" onclick="closeNav()">
-      <h1>
-        هلا ,تواصل معنا على الايميل <br>
-      <span style="color: #FD7C16;">
-        cozyter@hgi.sa
+  
+  <div class="container home" style="height: 100vh">
+    <div class="row justify-content-center align-items-center flex-column ex" onclick="closeNav()" style="height: 100vh">
+     <h1 >
+       هلا ,تواصل معنا على الايميل <br>
+     <span style="color: #FD7C16;">
+       cozyter@hgi.sa
 
-      </span>
-      <br>
-      وحنرد بأسرع وقت
-      </h1>
-     </div>
-  </div>
+     </span>
+     <br>
+     وحنرد بأسرع وقت
+     </h1>
+    </div>
+    </div>
      <div class="footer mobile_hidden">
       <p>جميع الحقوق محفوظة © 2021</p>
     </div>
